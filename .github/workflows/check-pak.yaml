@@ -22,7 +22,6 @@ jobs:
       fail-fast: false
       matrix:
         config:
-        config:
           - {os: windows-latest, r: 'release', rust-version: 'stable-msvc'}
           - {os: macOS-latest,   r: 'release', rust-version: 'stable'     }
           - {os: ubuntu-20.04,   r: 'release', rust-version: 'stable'     }
