@@ -1,0 +1,15 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  message = FALSE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+Basic use example:
+
+```{r}
+# foo 
+```
+
