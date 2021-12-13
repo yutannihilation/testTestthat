@@ -10,17 +10,13 @@
       
       
       ```r
-      # foo 
-      1 + 1
-      #> [1] 2
+      library(rextendr)
       
-      # bar
-      2 + 2
-      #> [1] 4
+      # create a Rust function
+      rust_function("fn add(a:f64, b:f64) -> f64 { a + b }")
       
-      # baz
-      3 + 3
-      #> [1] 6
+      # call it from R
+      add(2.5, 4.7)
+      #> [1] 7.2
       ```
-      
 

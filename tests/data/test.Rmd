@@ -10,13 +10,11 @@ knitr::opts_chunk$set(
 Basic use example:
 
 ```{r}
-# foo 
-1 + 1
+library(rextendr)
 
-# bar
-2 + 2
+# create a Rust function
+rust_function("fn add(a:f64, b:f64) -> f64 { a + b }")
 
-# baz
-3 + 3
+# call it from R
+add(2.5, 4.7)
 ```
-
